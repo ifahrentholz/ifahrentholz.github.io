@@ -1,0 +1,39 @@
+# Site settings
+title: Ingo Fahrentholz
+description: 'A personal blog'
+url: 'http://ifahrentholz.de'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+disqus_shortname: 'ifahrentholz'
+
+author:
+  name: 'Ingo Fahrentholz'
+  # email: ingof.work@gmail.com
+  twitter_username: ifahrentholz
+  facebook_username: ingo.fa
+  github_username:  ifahrentholz
+  linkedin_username:  ingo-fahrentholz-5a2ba356
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

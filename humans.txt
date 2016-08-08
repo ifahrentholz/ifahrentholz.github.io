@@ -1,0 +1,11 @@
+/* TEAM */
+WebDeveloper: Ingo Fahrentholz
+Twitter: @ifahrentholz
+Site: http://ifahrentholz.de
+Location: Berlin, Germany
+
+/* SITE */
+Last update: 2016/08/08
+Standards: HTML5, CSS3
+Components: Jekyll
+Software: Sublime Text, Photoshop
