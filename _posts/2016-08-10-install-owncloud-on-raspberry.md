@@ -43,7 +43,7 @@ Create the SSL certificat
 
 ```
 sudo openssl req $@ -new -x509 -days 730 -nodes -out /etc/nginx/cert.pem -keyout /etc/nginx/cert.key
-``
+```
 
 Protect the certificat
 
