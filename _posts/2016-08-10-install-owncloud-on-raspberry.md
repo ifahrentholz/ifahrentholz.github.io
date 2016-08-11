@@ -192,7 +192,6 @@ Get your gid, uid and UUID
 
 ```
 id -g www-data
-
 ```
 
 - uid
