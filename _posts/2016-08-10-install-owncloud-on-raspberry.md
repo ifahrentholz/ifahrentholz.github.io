@@ -59,7 +59,7 @@ sudo mv /etc/nginx/sites-available/default /etc/nginx/sites-available/default_ol
 sudo nano /etc/nginx/sites-available/default
 ```
 
-Paste the following configuration. Make shure you substitue **IPAdress** with your Raspberry Pi IPAdress
+Paste the following configuration. Make sure you substitue **IPAdress** with your Raspberry Pi IPAdress
 
 ```
 upstream php-handler {
