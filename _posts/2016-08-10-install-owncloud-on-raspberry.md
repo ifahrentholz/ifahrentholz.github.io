@@ -233,3 +233,52 @@ sudo reboot
 
 Now you can open your webbrowser and setup owncloud.
 Please make sure you configure your Data folder below **Storage & database**
+
+
+### Appendix
+
+If you've trouble with large folders and run into a timeout you need to make the following adjustments.
+
+For Nginx + FastCGI (php-fpm), you should try to tweak nginx configuration in this way:
+
+Open:
+
+```
+sudo nano /etc/php5/fpm/php.ini
+```
+
+Set:
+
+```
+max_execution_time = 300
+```
+
+Open :
+
+```
+sudo nano /etc/php5/fpm/pool.d/www.conf
+```
+
+Set:
+
+```
+request_terminate_timeout = 300
+```
+
+Now set the fastcgi_read_timeout
+
+```
+sudo nano /etc/nginx/sites-available/default
+```
+
+Set:
+
+```
+fastcgi_read_timeout 300;
+```
+
+Restart Nginx:
+
+```
+sudo service nginx reload
+```
