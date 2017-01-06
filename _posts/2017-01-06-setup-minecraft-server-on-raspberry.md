@@ -99,17 +99,22 @@ Config download: [spigot_config_2015.02.tar.gz](../../files/spigot_config_2015_0
 
 ### Step 10 (optional)
 
-Start minecraft server on startup.
-
-```
-sudo vi /etc/rc.local
-```
-
-Paste the following command before the `exit 0`.
-
-```
-su minecraft -c 'cd /mnt/data450g/games/server/minecraft/ && screen -dmS minecraft ./run.sh'
-```
+Start your Minecraft server in a screen session so it keeps running in the 'background'.
 
 
+1. Navigate to your server's directory.
+
+2. Run the command: `screen -S ScreenNameGoesHere`
+
+3. Then you'll be in your screen session, so run the server startup script.
+
+4. To leave the screen session (and leave it running) press and hold CTRL, A, D (in that order).
+
+5. To resume the screen session run the command: screen -r ScreenNameGoesHere
+
+6. To kill the screen session run the command: screen -S ScreenNameGoesHere -X kill
+
+
+
+### Availability
 > If you want to make your server public available you need to use a dynip service like: [noip.com](https://www.noip.com/)
