@@ -5,6 +5,10 @@ categories: [raspberry, jenkins]
 tags: [raspberry, jenkins, setup]
 ---
 
+In this article I want to document how to setup a Jenkins server on raspberry pi (3).
+The content is heavily borrowed by [kubecloud](http://kubecloud.io/guide-install-jenkins-on-rpi/).
+
+
 ### Step 1
 
 Choose java jdk-8 as your java.
