@@ -5,8 +5,6 @@ categories: [web-development, polymer, case-study]
 tags: [polymer, case-study, case, study, routing, data-binding]
 ---
 
-# WIP Polymer tutorial
-
 In this article I want to document how to work with polymer & web components.
 The goal is to create a fully working webapp.
 
