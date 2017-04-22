@@ -1,8 +1,8 @@
+.DS_Store
+Gemfile.lock
 .idea
 _site
 .sass-cache
 .jekyll-metadata
 *.sublime-project
 *.sublime-workspace
-.DS_Store
-Gemfile.lock
