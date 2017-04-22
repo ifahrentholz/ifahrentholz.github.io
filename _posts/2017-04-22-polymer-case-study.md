@@ -9,13 +9,13 @@ In this article I want to document how to work with polymer & web components.
 The goal is to create a fully working webapp.
 
 ### TODOS:
-- [ ] Create the needed web components
-- [ ] Overlay with (iron-overlay-behavior)
-- [ ] Routing & lazy loading
-- [ ] Ajax handling (iron-ajax)
-- [ ] Data-binding
-- [ ] Usage of observables
-- [ ] Event handling
-- [ ] Handle image loading (iron-image & placeholder[base64-image-string])
-- [ ] Vulcanize & Crisper
-- [ ] Bundling with Webpack / Grunt 
+- ☐ Create the needed web components
+- ☐ Overlay with (iron-overlay-behavior)
+- ☐ Routing & lazy loading
+- ☐ Ajax handling (iron-ajax)
+- ☐ Data-binding
+- ☐ Usage of observables
+- ☐ Event handling
+- ☐ Handle image loading (iron-image & placeholder[base64-image-string])
+- ☐ Vulcanize & Crisper
+- ☐ Bundling with Webpack / Grunt 
