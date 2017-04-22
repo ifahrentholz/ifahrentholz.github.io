@@ -9,6 +9,7 @@ In this article I want to document how to work with polymer & web components.
 The goal is to create a fully working webapp.
 
 ### TODOS:
+- ☑︎ Start 💪
 - ☐ Create the needed web components
 - ☐ Overlay with (iron-overlay-behavior)
 - ☐ Routing & lazy loading
