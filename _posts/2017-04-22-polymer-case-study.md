@@ -18,5 +18,6 @@ The goal is to create a fully working webapp.
 - ☐ Usage of observables
 - ☐ Event handling
 - ☐ Handle image loading (iron-image & placeholder[base64-image-string])
+- ☐ Implement PRPL pattern
 - ☐ Vulcanize & Crisper
 - ☐ Bundling with Webpack / Grunt 
